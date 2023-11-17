@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Desmp2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h2>
+                <a href="default.aspx">Registración</a>
+                <a href="default2.aspx">Gestión de archivos </a>
+            </h2>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
